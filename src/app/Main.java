@@ -1,14 +1,14 @@
 package app;
 
 import app.concretes.config.CLIConfig;
-import app.console.CLI;
-import app.console.exceptions.NotRegisteredCommandException;
+import app.simplecommands.Interpreter;
+import app.simplecommands.exceptions.NotRegisteredCommandException;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        CLI cli = new CLI(new CLIConfig());
+        Interpreter cli = new Interpreter(new CLIConfig());
 
         try {
             cli.handle(args);

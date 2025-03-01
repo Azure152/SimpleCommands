@@ -1,4 +1,4 @@
-package app.console;
+package app.simplecommands.commands;
 
 import java.util.HashMap;
 import java.util.Map;

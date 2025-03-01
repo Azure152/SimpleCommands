@@ -1,11 +1,11 @@
 package app.concretes.commands;
 
 import app.concretes.rules.IntegerRule;
-import app.console.ArgumentDefinition;
-import app.console.Definition;
-import app.console.ICommand;
-import app.console.Input;
-import app.console.InputValidator;
+import app.simplecommands.commands.ICommand;
+import app.simplecommands.inputs.ArgumentDefinition;
+import app.simplecommands.inputs.Definition;
+import app.simplecommands.inputs.Input;
+import app.simplecommands.inputs.InputValidator;
 
 public class SumCommand implements ICommand
 {

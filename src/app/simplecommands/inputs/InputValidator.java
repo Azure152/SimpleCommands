@@ -1,9 +1,9 @@
-package app.console;
+package app.simplecommands.inputs;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import app.console.exceptions.ValidationException;
+import app.simplecommands.exceptions.ValidationException;
 
 public class InputValidator
 {

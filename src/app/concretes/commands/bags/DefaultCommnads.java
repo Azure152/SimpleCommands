@@ -2,7 +2,7 @@ package app.concretes.commands.bags;
 
 import app.concretes.commands.GreetCommand;
 import app.concretes.commands.SumCommand;
-import app.console.CommandBag;
+import app.simplecommands.commands.CommandBag;
 
 public class DefaultCommnads extends CommandBag
 {

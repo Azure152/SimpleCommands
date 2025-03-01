@@ -1,6 +1,6 @@
 package app.concretes.rules;
 
-import app.console.IValidationRule;
+import app.simplecommands.inputs.IValidationRule;
 
 public class IntegerRule implements IValidationRule
 {

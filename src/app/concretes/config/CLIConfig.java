@@ -3,10 +3,10 @@ package app.concretes.config;
 // import app.concretes.commands.GreetCommand;
 // import app.concretes.commands.SumCommand;
 import app.concretes.commands.bags.DefaultCommnads;
-import app.console.CLIConfigurator;
-import app.console.CommandBag;
+import app.simplecommands.InterpreterConfigurator;
+import app.simplecommands.commands.CommandBag;
 
-public class CLIConfig extends CLIConfigurator
+public class CLIConfig extends InterpreterConfigurator
 {
     @Override
     public CommandBag commands()

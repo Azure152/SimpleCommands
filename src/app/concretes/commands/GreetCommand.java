@@ -1,9 +1,9 @@
 package app.concretes.commands;
 
-import app.console.Definition;
-import app.console.ICommand;
-import app.console.Input;
-import app.console.OptionDefinition;
+import app.simplecommands.commands.ICommand;
+import app.simplecommands.inputs.Definition;
+import app.simplecommands.inputs.Input;
+import app.simplecommands.inputs.OptionDefinition;
 
 public class GreetCommand implements ICommand
 {

@@ -1,4 +1,4 @@
-package app.console.exceptions;
+package app.simplecommands.exceptions;
 
 public class ValidationException extends Exception
 {

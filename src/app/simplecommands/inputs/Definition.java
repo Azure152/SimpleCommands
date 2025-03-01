@@ -1,4 +1,4 @@
-package app.console;
+package app.simplecommands.inputs;
 
 import java.util.LinkedList;
 import java.util.List;

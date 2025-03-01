@@ -1,4 +1,4 @@
-package app.console;
+package app.simplecommands.inputs;
 
 public class OptionDefinition
 {

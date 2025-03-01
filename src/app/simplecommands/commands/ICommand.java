@@ -1,4 +1,8 @@
-package app.console;
+package app.simplecommands.commands;
+
+import app.simplecommands.inputs.Definition;
+import app.simplecommands.inputs.Input;
+import app.simplecommands.inputs.InputValidator;
 
 public interface ICommand
 {
