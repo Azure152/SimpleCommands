@@ -1,7 +1,6 @@
 package app.simplecommands.commands.defaults;
 
 import java.util.Collection;
-import java.util.Set;
 
 import app.simplecommands.commands.CommandBag;
 import app.simplecommands.commands.CommandDescriptor;
