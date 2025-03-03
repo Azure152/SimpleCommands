@@ -1,7 +1,9 @@
 package app.simplecommands.commands;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class CommandBag
 {
@@ -20,5 +22,15 @@ public class CommandBag
     public ICommand find(String name)
     {
         return this.commands.get(name);
+    }
+
+    public Map<String, ICommand> getCommands()
+    {
+        return commands;
+    }
+
+    public Set<String> commands()
+    {
+        return this.commands.keySet();
     }
 }

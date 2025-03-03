@@ -17,3 +17,5 @@ resources/
 test/resources/projects/**/.vscode
 test/resources/projects/maven/salut/testGradle
 test-temp
+
+src/app/concretes/**/*

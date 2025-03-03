@@ -27,4 +27,14 @@ public interface ICommand
     {
         // 
     }
+
+    /**
+     * get the descriptor of command
+     * 
+     * @return descriptor instance
+     */
+    public default CommandDescriptor descriptor()
+    {
+        return new CommandDescriptor("N/A");
+    }
 }
